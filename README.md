@@ -1,8 +1,10 @@
 Age and Gender Prediction
+
 This project focuses on predicting age and gender from facial images using Convolutional Neural Networks (CNNs). We trained a model using the UTKFace dataset and evaluated its performance against our own dataset. Key findings include the model's accuracy, its generalization capabilities, and the observed discrepancies in real-world application due to varying lighting conditions and movements.
+
 Dataset-
-This project used the UTKFace and custom datasets for age and gender prediction.
-Here is the dataset link-https://www.kaggle.com/datasets/jangedoo/utkface-new
+This project used the UTKFace and custom datasets for age and gender prediction.Here is the dataset link-https://www.kaggle.com/datasets/jangedoo/utkface-new
+
 Convolutional Neural Network (CNN) is employed for the task of age and gender prediction. 
 This project uses a fine-tuned VGG16 CNN model for age and gender prediction, employing Haar Cascade for face detection.
 Performance evaluated with confusion matrices and scatter plots.
